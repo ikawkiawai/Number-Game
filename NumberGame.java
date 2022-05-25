@@ -16,9 +16,9 @@ class NumberGame {
       userNum = input.nextDouble();
       //Say how close number is via 'higher', 'lower', 'correct'
       if (userNum > Random) {
-        System.out.println("Your number is higher.");
+        System.out.println("Your number is higher than the correct answer.");
       } else if (userNum < Random) {
-        System.out.println("Your number is lower.");
+        System.out.println("Your number is lower than the correct answer.");
       } else {
         System.out.println("Correct!");
       }
