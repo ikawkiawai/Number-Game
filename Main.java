@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class NumberGame {
+class Main {
   public static void main(String[] args) {
     //Creating the double vairables Random and userNum
     //Random creates a random number from 1-100
@@ -16,9 +16,9 @@ class NumberGame {
       userNum = input.nextDouble();
       //Say how close number is via 'higher', 'lower', 'correct'
       if (userNum > Random) {
-        System.out.println("Your number is higher than the correct answer.");
+        System.out.println("Higher than correct answer.");
       } else if (userNum < Random) {
-        System.out.println("Your number is lower than the correct answer.");
+        System.out.println("Lower than correct answer.");
       } else {
         System.out.println("Correct!");
       }
